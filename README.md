@@ -21,6 +21,7 @@ Você pode instalá-las executando o comando abaixo:
 ## 📁 Estrutura do Projeto:
 
  - data/: Aqui você encontrará as imagens de treinamento e teste organizadas por classe.<br>
+ - data/models/: arquivo json com as classes e os modelos que foram treinados<br>
          -  normal/: Imagens de pulmões normais.<br>
          -  pneumonia/: Imagens de pulmões com pneumonia.<br>
          -  coronavirus/: Imagens de pulmões com coronavírus.<br>
