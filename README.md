@@ -20,24 +20,24 @@ Você pode instalá-las executando o comando abaixo:
 
 ## 📁 Estrutura do Projeto:
 
- - data/: Aqui você encontrará as imagens de treinamento e teste organizadas por classe.
-         - normal/: Imagens de pulmões normais.
-         - pneumonia/: Imagens de pulmões com pneumonia.
-         - coronavirus/: Imagens de pulmões com coronavírus.
-train.ipynb: Use esse notebook Jupyter para treinar o modelo de classificação de imagens.
-predict.ipynb: Use esse notebook Jupyter para fazer previsões e classificar novas imagens.
+ - data/: Aqui você encontrará as imagens de treinamento e teste organizadas por classe.<br>
+         -  normal/: Imagens de pulmões normais.<br>
+         -  pneumonia/: Imagens de pulmões com pneumonia.<br>
+         -  coronavirus/: Imagens de pulmões com coronavírus.<br>
+train.ipynb: Use esse notebook Jupyter para treinar o modelo de classificação de imagens.<br>
+predict.ipynb: Use esse notebook Jupyter para fazer previsões e classificar novas imagens.<br>
 
 ## 🚀 Treinando o Modelo:
 
 Certifique-se de que suas imagens de treinamento e teste estejam organizadas corretamente dentro da pasta data/.
-Abra o notebook train.ipynb em sua interface preferida, utilizei o Jupyter Notebook.
+Abra o notebook train.ipynb em sua IDE preferida, utilizei o Jupyter Notebook.
 Execute cada célula do notebook para carregar as imagens, criar o modelo de classificação e iniciar o treinamento.
 Ao final do treinamento, seu modelo será salvo na pasta data/models/.
 
 ## 🔍 Fazendo Previsões/Classificações:
 
 Tenha em mãos uma imagem de pulmão que deseja classificar.
-Você pode abrir o notebook predict.ipynb em sua interface em uma IDE como o Jupyter Notebook.
+Você pode abrir o notebook predict.ipynb em uma IDE como o Jupyter Notebook.
 Execute cada célula do notebook para carregar o modelo treinado e abrir a interface. Faça uploud de uma imagem para fazer a previsão/classificação da imagem e exibir o resultado.
 
 ### [🔗 Covid-19 Image Dataset](https://www.kaggle.com/datasets/pranavraikokte/covid19-image-dataset)
